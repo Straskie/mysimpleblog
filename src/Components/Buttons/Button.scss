@@ -1,0 +1,16 @@
+button {
+    $primaryButton: #219653;
+    padding: .5rem;
+    color: $primaryButton;
+    font-weight: 900;
+    border: 2px solid $primaryButton;
+    background-color: #fff;
+    border-radius: .75rem;
+    cursor: pointer;
+    transition: all 250ms;
+
+    &:is(:hover, :focus) {
+        background-color: $primaryButton;
+        color: #fff;
+    }
+}
